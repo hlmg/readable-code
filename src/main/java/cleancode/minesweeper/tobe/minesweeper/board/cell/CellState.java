@@ -15,7 +15,7 @@ public class CellState {
     }
 
     public void open() {
-        isOpened = true;
+        this.isOpened = true;
     }
 
     public void flag() {

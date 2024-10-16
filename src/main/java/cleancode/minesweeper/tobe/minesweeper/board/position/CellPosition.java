@@ -14,8 +14,8 @@ public class CellPosition {
         this.colIndex = colIndex;
     }
 
-    public static CellPosition of(int lowIndex, int colIndex) {
-        return new CellPosition(lowIndex, colIndex);
+    public static CellPosition of(int rowIndex, int colIndex) {
+        return new CellPosition(rowIndex, colIndex);
     }
 
     public boolean canCalculatePositionBy(RelativePosition relativePosition) {
